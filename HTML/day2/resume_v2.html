@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홍길동 자기소개</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        h1 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 8px;
+        }
+
+        ol {
+            list-style-type: lower-roman;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 4px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Self Introduction.</h1>
+    <img src="hong.webp" alt="honggildong">
+    <br>
+    <a href="https://github.com/menteur-Ran/oz_assignment">내 Repository 바로가기</a>
+    <p>나는 홍길동입니다. 너희들은 나에 대해서 한번쯤은 들어봤을 것.</p>
+    <ul>
+        <li>이름: 홍길동</li>
+        <li>나이: 130살</li>
+        <li>출생년도: 1443년</li>
+        <li>성별: 남자</li>
+        <li>거주지: 조선 팔도 강산 어디든</li>
+    </ul>
+
+    <h1>Hobby &amp; Preference</h1>
+    <ol type="i">
+        <li>취미: 독서</li>
+        <li>좋아하는 음식: 닭백숙</li>
+        <li>좋아하는 영화: 전우치</li>
+        <li>좋아하는 책: 홍길동전</li>
+        <li>좋아하는 노래 장르: 국악, 판소리</li>
+    </ol>
+
+    <h1>Career &amp; Work Experience</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>회사명</th>
+                <th>직무</th>
+                <th>기간</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>무직</td>
+                <td>백수</td>
+                <td>1443~1469</td>
+            </tr>
+            <tr>
+                <td>활빈당</td>
+                <td>의적</td>
+                <td>1470~1500</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Send Cover Letter</h1>
+    <form action="https://httpbin.org/post" method="POST">
+        <label for="emailInput">담당자 이메일: </label>
+        <input id="emailInput" type="email" placeholder="email@example.com">
+        <label for="companyName"> 회사명: </label>
+        <input id="companyName" type="text" placeholder="(주)Paper Company">
+        <button>이력서 전송하기</button>
+    </form>
+
+</body>
+
+</html>
